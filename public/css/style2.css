@@ -31,14 +31,14 @@ background-repeat: no-repeat;
 background-size: cover;
 object-fit: cover;
 position: relative;
-border-radius: 15px;
+border-radius: 15px 15px 0 0;
 }
 .content-box{
     float: right;
     width: 60%;
     height: 100%;
     background: rgba(241, 238, 238, 0.637);
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
     
 }
 .box1 .img-box{
