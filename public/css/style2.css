@@ -127,6 +127,32 @@ border-radius: 15px;
 .content-box{
     box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.5);
 }
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
 }
 @media (min-width:501px) and (max-width:800px){
     .box1{
@@ -150,6 +176,32 @@ border-radius: 15px;
 	.des{
 		padding-top: 0;
 		font-size: 1.2rem;
+	}
+	@-webkit-keyframes animateCloud {
+		0% {
+			margin-left: -1000px;
+		}
+		100% {
+			margin-left: 100%;
+		}
+	}
+	
+	@-moz-keyframes animateCloud {
+		0% {
+			margin-left: -1000px;
+		}
+		100% {
+			margin-left: 100%;
+		}
+	}
+	
+	@keyframes animateCloud {
+		0% {
+			margin-left: -1000px;
+		}
+		100% {
+			margin-left: 100%;
+		}
 	}
 }
 
@@ -176,6 +228,32 @@ border-radius: 15px;
 	.des{
 		padding-top: 0;
 		font-size: 1.2rem;
+	}
+	@-webkit-keyframes animateCloud {
+		0% {
+			margin-left: -1000px;
+		}
+		100% {
+			margin-left: 100%;
+		}
+	}
+	
+	@-moz-keyframes animateCloud {
+		0% {
+			margin-left: -1000px;
+		}
+		100% {
+			margin-left: 100%;
+		}
+	}
+	
+	@keyframes animateCloud {
+		0% {
+			margin-left: -1000px;
+		}
+		100% {
+			margin-left: 100%;
+		}
 	}
 }
 
