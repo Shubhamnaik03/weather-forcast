@@ -31,14 +31,14 @@ background-repeat: no-repeat;
 background-size: cover;
 object-fit: cover;
 position: relative;
-border-radius: 15px 15px 0 0;
+border-radius: 15px 0 0 15px;
 }
 .content-box{
     float: right;
     width: 60%;
     height: 100%;
     background: rgba(241, 238, 238, 0.637);
-    border-radius:  0 0 15px 15px;
+    border-radius:  0 15px 15px 0;
     
 }
 .box1 .img-box{
@@ -105,12 +105,16 @@ border-radius: 15px 15px 0 0;
 }
 .content-box{
 	height: auto;
+	border-radius: 15px 15px 0 0;
 }
 
 .box1 .img-box, .box1 .content-box{
     float:none;
     width: 100%;
     text-align: center;
+}
+.img-box{
+	border-radius: 15px 15px 0 0;
 }
 
 .celcs{
@@ -159,7 +163,12 @@ border-radius: 15px 15px 0 0;
 		width:90%;
 		margin: 100px auto;
 	}
-
+.img-box{
+	border-radius: 15px 15px 0 0;
+}
+.content-box{
+	border-radius:  0 0 15px 15px;
+}
 	
 	.box1 .img-box, .box1 .content-box{
 		float:none;
@@ -212,6 +221,13 @@ border-radius: 15px 15px 0 0;
 		margin: 100px auto;
 	
 	}
+	.img-box{
+		border-radius: 15px 15px 0 0;
+	}
+	.content-box{
+		border-radius:  0 0 15px 15px;
+	}
+		
 	
 	.box1 .img-box, .box1 .content-box{
 		float:none;
